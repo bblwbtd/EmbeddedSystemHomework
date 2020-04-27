@@ -5,10 +5,10 @@ from controller import Controller
 
 page = open('index.html').read()
 
-engineA = Controller(7, 11)
-engineB = Controller(13, 15)
+engineA = Controller(11, 12)
+engineB = Controller(15, 13)
 engineC = Controller(29, 31)
-engineD = Controller(33, 37)
+engineD = Controller(33, 35)
 
 
 def stop():
